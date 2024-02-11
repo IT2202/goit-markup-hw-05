@@ -832,6 +832,8 @@ position: relative;
 .modal-btn-sub {
     display: block;
     justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
     min-width: 169px;
     height: 56px;
     padding: 16px 32px;
