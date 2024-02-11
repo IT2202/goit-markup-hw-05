@@ -835,9 +835,9 @@ position: relative;
 
 
 .check-text span {
-    /* display: inline-flex;
+    display: inline-flex;
     justify-content: center;
-    align-items: center; */
+    align-items: center;
     width: 16px;
     height: 16px;
     margin-right: 8px;
@@ -850,8 +850,8 @@ position: relative;
 
 .check-box-icon {
     display: inline-flex;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center;
+    align-items: center; */
 }
 
 .check-box:checked + .check-text span {
