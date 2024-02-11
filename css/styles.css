@@ -608,6 +608,7 @@ color: #F4F4FD;
 .footer-btn-sub {
     min-width: 165px;
     background-color: #4D5AE5;
+    color: #ffffff;
     display: inline-flex;
     padding: 8px 24px;
     justify-content: center;
