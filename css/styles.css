@@ -762,7 +762,6 @@ position: relative;
 
 .modal-label-comment {
     display: block;
-    /* color: #8E8F99; */
     margin-bottom: 4px; 
     color: rgba(46, 47, 66, 0.40);
         font-size: 12px;
@@ -824,8 +823,8 @@ position: relative;
         font-weight: 400;
         line-height: 1.17;
         letter-spacing: 0.04em;
-        display: flex;
-        align-items: center;
+        /* display: flex;
+        align-items: center; */
 }
 
 .check-text a {
@@ -849,9 +848,7 @@ position: relative;
 }
 
 .check-box-icon {
-    display: inline-flex;
-    /* justify-content: center;
-    align-items: center; */
+  
 }
 
 .check-box:checked + .check-text span {
