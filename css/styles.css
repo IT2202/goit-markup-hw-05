@@ -613,7 +613,7 @@ color: #F4F4FD;
     padding: 8px 24px;
     justify-content: center;
     align-items: center;
-    gap: 16px;
+    flex-direction: row-reverse;
     border: none;
     border-radius: 4px;
     text-align: center;
@@ -639,6 +639,7 @@ color: #F4F4FD;
 
 .footer-sub-icon {
     fill: #FFFFFF;
+    margin-left: 16px;
 
 }
 
@@ -655,11 +656,11 @@ color: #F4F4FD;
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* .is-open {
+.is-open {
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
-} */
+}
 
 .modal {
     position: absolute;
